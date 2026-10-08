@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "dashboard": "หน้าหลัก",
+    "quiz": "ทำข้อสอบ",
+    "vocab": "คำศัพท์",
+    "grammar": "ไวยากรณ์",
+    "mockTest": "สอบจำลอง",
+    "phrases": "ประโยคสำเร็จรูป",
+    "roleplay": "ฝึกสนทนา",
+    "emailPractice": "เขียนอีเมล",
+    "settings": "ตั้งค่า",
+    "logout": "ออกจากระบบ"
+  },
+  "dashboard": {
+    "greeting": "สวัสดี {name}!",
+    "streak": "สตรีคต่อเนื่อง",
+    "streakDays": "{days} วัน",
+    "todayPlan": "เรียนวันนี้",
+    "latestScore": "คะแนนล่าสุด",
+    "estimatedScore": "คะแนนประมาณ",
+    "weaknessTitle": "จุดที่ควรพัฒนา",
+    "recentSessions": "ผลการทดสอบล่าสุด",
+    "noSessions": "ยังไม่มีผลการทดสอบ เริ่มทำข้อสอบได้เลย!",
+    "accuracy": "ความแม่นยำ",
+    "vocabDue": "คำศัพท์ที่ถึงรอบทบทวน",
+    "vocabDueCount": "{count} คำ"
+  },
+  "quiz": {
+    "title": "ทำข้อสอบ",
+    "selectPart": "เลือกพาร์ท",
+    "startQuiz": "เริ่มทำข้อสอบ",
+    "question": "ข้อ {current}/{total}",
+    "timeLeft": "เวลาที่เหลือ",
+    "submit": "ส่งคำตอบ",
+    "next": "ข้อถัดไป",
+    "prev": "ข้อก่อนหน้า",
+    "finish": "เสร็จสิ้น",
+    "explanation": "เฉลยและคำอธิบาย",
+    "yourAnswer": "คำตอบของคุณ",
+    "correctAnswer": "คำตอบที่ถูกต้อง",
+    "correct": "ถูกต้อง",
+    "incorrect": "ไม่ถูกต้อง",
+    "score": "ผลคะแนน",
+    "resumeSession": "ทำต่อจากที่ค้างไว้",
+    "startNew": "เริ่มใหม่"
+  },
+  "vocab": {
+    "title": "ทบทวนคำศัพท์",
+    "dueToday": "ถึงรอบทบทวนวันนี้",
+    "noDue": "ไม่มีคำศัพท์ที่ต้องทบทวนวันนี้ 🎉",
+    "tapToFlip": "แตะเพื่อดูความหมาย",
+    "howWell": "คุณจำได้ดีแค่ไหน?",
+    "nextReview": "ทบทวนครั้งหน้า",
+    "completed": "ทบทวนครบแล้ว!",
+    "categories": {
+      "businessCorrespondence": "จดหมายธุรกิจ",
+      "travel": "การเดินทาง",
+      "hr": "ทรัพยากรบุคคล",
+      "contracts": "สัญญา",
+      "general": "ทั่วไป"
+    }
+  },
+  "auth": {
+    "login": "เข้าสู่ระบบ",
+    "register": "สมัครสมาชิก",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "name": "ชื่อ",
+    "loginWithGoogle": "เข้าสู่ระบบด้วย Google",
+    "noAccount": "ยังไม่มีบัญชี?",
+    "hasAccount": "มีบัญชีแล้ว?",
+    "forgotPassword": "ลืมรหัสผ่าน?"
+  },
+  "common": {
+    "loading": "กำลังโหลด...",
+    "error": "เกิดข้อผิดพลาด",
+    "retry": "ลองอีกครั้ง",
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "confirm": "ยืนยัน",
+    "back": "กลับ",
+    "part": "พาร์ท"
+  }
+}

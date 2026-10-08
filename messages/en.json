@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "quiz": "Practice Quiz",
+    "vocab": "Vocabulary",
+    "grammar": "Grammar",
+    "mockTest": "Mock Test",
+    "phrases": "Phrase Bank",
+    "roleplay": "Roleplay Chat",
+    "emailPractice": "Email Practice",
+    "settings": "Settings",
+    "logout": "Sign Out"
+  },
+  "dashboard": {
+    "greeting": "Hello, {name}!",
+    "streak": "Study Streak",
+    "streakDays": "{days} days",
+    "todayPlan": "Study Today",
+    "latestScore": "Latest Score",
+    "estimatedScore": "Estimated Score",
+    "weaknessTitle": "Areas to Improve",
+    "recentSessions": "Recent Sessions",
+    "noSessions": "No sessions yet. Start practicing!",
+    "accuracy": "Accuracy",
+    "vocabDue": "Vocab Due",
+    "vocabDueCount": "{count} cards"
+  },
+  "quiz": {
+    "title": "Practice Quiz",
+    "selectPart": "Select Part",
+    "startQuiz": "Start Quiz",
+    "question": "Question {current}/{total}",
+    "timeLeft": "Time Left",
+    "submit": "Submit",
+    "next": "Next",
+    "prev": "Previous",
+    "finish": "Finish",
+    "explanation": "Explanation",
+    "yourAnswer": "Your answer",
+    "correctAnswer": "Correct answer",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "score": "Score",
+    "resumeSession": "Resume Session",
+    "startNew": "Start New"
+  },
+  "vocab": {
+    "title": "Vocabulary Review",
+    "dueToday": "Due today",
+    "noDue": "No cards due today 🎉",
+    "tapToFlip": "Tap to reveal",
+    "howWell": "How well did you remember?",
+    "nextReview": "Next review",
+    "completed": "All done!",
+    "categories": {
+      "businessCorrespondence": "Business Correspondence",
+      "travel": "Travel",
+      "hr": "Human Resources",
+      "contracts": "Contracts",
+      "general": "General"
+    }
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "loginWithGoogle": "Sign in with Google",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "forgotPassword": "Forgot password?"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "part": "Part"
+  }
+}
