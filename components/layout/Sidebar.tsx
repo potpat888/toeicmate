@@ -17,9 +17,10 @@ const navItems = [
 
 interface SidebarProps {
   locale: string;
+  onNavigate?: () => void;
 }
 
-export function Sidebar({ locale }: SidebarProps) {
+export function Sidebar({ locale, onNavigate }: SidebarProps) {
   const pathname = usePathname();
 
   return (
@@ -31,6 +32,7 @@ export function Sidebar({ locale }: SidebarProps) {
           <Link
             key={item.href}
             href={href}
+            onClick={onNavigate}
             className={cn(
               'flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all',
               isActive
