@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { signOut } from 'next-auth/react';
 import { GraduationCap, LogOut, Sun, Moon } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { MobileNav } from './MobileNav';
+
 
 export function Navbar({ userName }: { userName?: string }) {
   const locale = useLocale();
@@ -19,7 +19,7 @@ export function Navbar({ userName }: { userName?: string }) {
   return (
     <header className="sticky top-0 z-50 flex h-14 items-center gap-2 border-b bg-background/95 backdrop-blur px-4 lg:px-6">
       {/* ปุ่มเมนู (แสดงเฉพาะมือถือ) */}
-      <MobileNav locale={locale} />
+   
 
       <Link href={`/${locale}/dashboard`} className="flex items-center gap-2 font-bold text-primary">
         <GraduationCap className="h-5 w-5" />
