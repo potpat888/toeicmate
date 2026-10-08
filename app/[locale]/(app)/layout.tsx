@@ -14,18 +14,23 @@ export default async function AppLayout({
 
   return (
     <div className="min-h-screen bg-background">
+
       <Navbar
-        userName={session?.user?.name || session?.user?.email || undefined}
+        userName={
+          session?.user?.name ||
+          session?.user?.email ||
+          undefined
+        }
       />
 
       <div className="flex min-h-[calc(100vh-56px)]">
-        <aside className="w-60 shrink-0 border-r bg-card/30">
-          <Sidebar locale={locale} />
-        </aside>
+
+        <Sidebar locale={locale} />
 
         <main className="min-w-0 flex-1 p-4 sm:p-6 lg:p-8">
           {children}
         </main>
+
       </div>
     </div>
   );
